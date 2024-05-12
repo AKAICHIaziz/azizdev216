@@ -3,12 +3,12 @@ import styles from './home.module.css'
 import Image from 'next/image'
 import Me from '/public/me.jpg'
 
-const HomeComponent = () => {
+const HomeComponent = () => { 
   return (
     <div className={styles.page_container}>
       <div className={styles.profile_container}>
         <div className={styles.text}>
-          <div className={styles.hi}>Hi👋,</div>
+          <div className={styles.hi}>Hi👋</div>
           <div className={styles.name}>I'am Akaichi Med Aziz</div>
           <div className={styles.desc}>A Full Stack Developper</div>
           <div className={styles.desc2}>I am Akaichi Med Aziz a full stack developper base in Tunisia.</div>
