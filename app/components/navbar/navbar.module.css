@@ -1,0 +1,45 @@
+.navbar {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.logo{
+    margin-left: 6vw;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.nav_links {
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 6vw;
+}
+.mobile_menu{
+    display: none;
+    color: black;
+    margin-right: 6vw;
+}
+.menu_icon{
+    width: 20px;
+}
+
+.nav_link {
+    font-size: 16px;
+}
+
+@media (max-width: 733px) {
+    .nav_links{
+        display: none;
+    }
+    .mobile_menu{
+        display: flex;
+        
+    }
+}
