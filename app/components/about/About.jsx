@@ -5,8 +5,8 @@ import img from '/public/devops.jpg'
 
 const About = () => {
   return (
-    <div className={styles.page_container} >
-      <div className={styles.about_container} id='about'>
+    <div className={styles.page_container} id='about' >
+      <div className={styles.about_container} >
         <div className={styles.img}>
           <Image className={styles.image} src={img} />
         </div>
