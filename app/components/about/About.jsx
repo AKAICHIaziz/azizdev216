@@ -8,7 +8,7 @@ const About = () => {
     <div className={styles.page_container} >
       <div className={styles.about_container} id='about'>
         <div className={styles.img}>
-          <Image className={styles.image} src={img} height={250} />
+          <Image className={styles.image} src={img} />
         </div>
         <div className={styles.description}>
           <div className={styles.description_title1}>ABOUT ME</div>

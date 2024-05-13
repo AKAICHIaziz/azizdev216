@@ -24,7 +24,7 @@
 }
 .mobile_menu{
     display: none;
-    color: black;
+    color: white;
     margin-right: 6vw;
 }
 .menu_icon{
@@ -46,6 +46,5 @@
     }
     .mobile_menu{
         display: flex;
-        
     }
 }

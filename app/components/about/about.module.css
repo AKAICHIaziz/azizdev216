@@ -17,6 +17,8 @@
 
 .image{
     border-radius: 20px;
+    height: 250px;
+    width: auto;
 }
 
 .description{
@@ -38,4 +40,36 @@
 
 .description_text{
     text-align: justify;
+    font-size: 15px;
 }
+
+@media (max-width: 820px){
+    .about_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 300px;
+        height: 500px;
+        margin-top: 12vh;
+        gap: 20px;
+    }
+    .image{
+        width: 300px;
+        height: auto;
+    }
+    .description_title2{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: unset;
+        width: 300px;
+    }
+    
+    .description_text{
+        text-align: justify;
+        font-size: 15px;
+        width: 300px;
+
+    }
+}
+
