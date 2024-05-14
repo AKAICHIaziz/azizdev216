@@ -3,6 +3,7 @@ import NavBar from "./components/navbar/Navbar";
 import HomeComponent from "./components/home/Home";
 import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/contact/Contact";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <HomeComponent />
         <About />
         <Portfolio />
+        <Contact />
       </div>
     </div>
   );
