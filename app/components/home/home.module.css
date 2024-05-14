@@ -1,6 +1,6 @@
 .page_container {
     background-color: hsl(244, 24%, 26%);
-    height: calc(100vh - 50px);
+    height: 100vh;
     display: flex;
     justify-content: center;
     color: white;
@@ -89,7 +89,11 @@
 .skill{
     width: 30px;
     height: auto;
-    
+    cursor: pointer;
+    transition: transform .1s ease;
+}
+.skill:hover{
+    transform: scale(1.2);
 }
 
 @keyframes profile__animate {
@@ -119,7 +123,7 @@
     .profile_container {
         width: 300px;
         height: 600px;
-        margin-top: 5px;
+        margin-top: 50px;
         flex-direction: column-reverse;
         color: black;
     }
