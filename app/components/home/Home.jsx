@@ -23,7 +23,7 @@ const HomeComponent = () => {
           <div className={styles.name}>I'am Akaichi Med Aziz</div>
           <div className={styles.desc}>A <span className={styles.span}>
             <Typewriter
-              words={['Full-Stack Developper', 'Graphic Designer']}
+              words={['Full-Stack Developper', 'Graphic Designer','Computer Science student']}
               loop={30}
               cursor
               cursorStyle='|'
